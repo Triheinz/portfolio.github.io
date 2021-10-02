@@ -6,16 +6,7 @@
   color: white;
 }
 
-.landing {
-  width: 100vw;
-  height: 100vh;
-  padding: 20px;
-  background-color: black;
-  color: ivory;
-  display: grid;
-  grid-gap: 1em;
-  grid-template-rows:1fr 1fr;
-}
+
 .landing a {
   text-decoration: none;
   color: black;
@@ -77,18 +68,7 @@ width: 100%;
   color: white;
 }
 
-.projects__box img {
-  height: 50px;
-  margin: 10px 10px 0px 0px;
-}
 
-.resume-container {
-  padding: 20px;
-  background-color: black;
-  color: ivory;
-  display: grid;
-  grid-gap: 3em;
-}
 
 .resume h1 {
   font-family: 'Druk Wide Cy TT Bold', serif;
@@ -97,12 +77,7 @@ width: 100%;
   text-align: center;
 }
 
-.resume__content {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3em;
-}
+
 
 .resume__content h2 {
   font-family: 'Druk Wide Medium', serif;
@@ -122,14 +97,7 @@ width: 100%;
   text-align: center;
 }
 
-.resume__content img {
-  height: 50px;
-  align-self: center;
-}
 
-.resume__pic img {
-  height: 100px;
-}
 
 .textBio {
   display: flex;
@@ -162,6 +130,48 @@ width: 100%;
 
 
 
+
+@media (min-width:600px){
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+  color: ivory;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows:1fr 1fr;
+}
+
+.projects__box img {
+  height: 50px;
+  margin: 10px 10px 0px 0px;
+}
+
+.resume-container {
+  padding: 20px;
+  background-color: black;
+  color: ivory;
+  display: grid;
+  grid-gap: 3em;
+}
+.resume__content img {
+  height: 50px;
+  align-self: center;
+}
+
+.resume__pic img {
+  height: 100px;
+}
+
+.resume__content {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3em;
+}
+
 .contact h1{
   text-align: center;
   font-family: 'Druk Wide Cy TT Bold', serif;
@@ -179,12 +189,11 @@ width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 .contact__img img{
   width: 40px;
   height: 40px;
   margin-bottom: 20px;
-
+}
 }
