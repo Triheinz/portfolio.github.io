@@ -6,16 +6,27 @@
   color: white;
 }
 
+.cursor {
+width: 10px;
+height: 10px;
+border: 10px solid #ffffff;
+background: #1a1a1a;
+border-radius: 50%;
+position:absolute;
+transition-duration: 100ms;
+}
 
+
+
+
+
+@media (min-width:600px){
 .landing a {
   text-decoration: none;
   color: black;
 }
 
-.section-1 {
-display: flex;
-width: 100%;
-}
+
 
 .nav {
   font-family: 'IFWSLA+VulfMono-Regular';
@@ -129,9 +140,10 @@ width: 100%;
 }
 
 
-
-
-@media (min-width:600px){
+  .section-1 {
+display: flex;
+width: 100%;
+}
 
 .landing {
   width: 100vw;
